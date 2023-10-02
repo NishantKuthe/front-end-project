@@ -1,0 +1,251 @@
+:root {
+    --main-primary-color: #48B1E8;
+    --main-primary-color-RGB: 0, 81, 124;
+    /* --main-secondary-color: #24796D; */
+}
+
+
+/* home page start  */
+
+#logo-img {
+    max-width: 150px;
+    max-height: 50px;
+}
+.float-one {
+    position: fixed !important;
+    width: 36px;
+    height: 48px;
+    bottom: 28px;
+    right: 95px;
+    color: #fff;
+    border-radius: 141px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+/* home page end */
+.aboutnews img{
+    max-width: 100%;
+    max-height: 240px;
+}
+.headingtag{
+    color: rgb(85, 85, 85) !important;
+}
+.title-box .breadcrumb-wrapper span:last-child{
+    color:black !important; 
+}
+.breadcrumb-wrapper a {
+    color: black !important;
+}
+/* popup design */
+
+.simplePopupBackground {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 300001;
+    overflow: hidden;
+}
+
+.simplePopup {
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 80%;
+    /* max-height: calc(100% - 40px); */
+}
+
+.simplePopup {
+    display: none;
+    position: fixed;
+    /*background: #fff;*/
+    z-index: 300001;
+    color: #414141;
+    /* padding: 20px; */
+    /*box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    left: 50%;
+    top: 50%!important;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.simplePopupClose {
+    cursor: pointer;
+    font-size: 0;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.simplePopupClose:before,
+.simplePopupClose:after {
+    content: '';
+    top: 0px;
+    width: 2px;
+    height: 30px;
+    background: #000;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.simplePopup img {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.simplePopup img {
+    border: 0;
+    height: 100%;
+}
+
+.simplePopupClose:after {
+    -ms-transform: rotate(+45deg);
+    transform: rotate(+45deg);
+    -webkit-transform: rotate(+45deg);
+}
+
+.simplePopupClose:before {
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+/* Bank  */
+
+div.widget-area {
+    margin-top: 0px;
+    margin-bottom: 65px;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.ttm-bgcolor-grey {
+    background-color: #f5faff;
+}
+
+.widget-area .widget-categories {
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.widget-area .widget {
+    position: relative;
+    margin: 40px 0 40px;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.widget-categories ul li:not(:last-child) {
+    border-bottom: 2px solid #f5faff;
+}
+
+.widget-categories ul li {
+    padding: 12px 0;
+    display: block;
+    position: relative;
+}
+
+div.widget-area ul>li>i {
+    position: absolute;
+    left: 20px;
+    color: var(--color-variant-3);
+    font-size: 25px;
+    top: 50%;
+    margin-top: -12.5px;
+}
+
+div.widget-area ul>li>span {
+    padding-left: 75px;
+}
+
+div.widget-area ul>li>span {
+    position: unset;
+    background-color: #fff !important;
+    width: 100%;
+    text-align: unset;
+    font-size: 15px;
+    display: inline-block;
+    color: var(--color-variant-3);
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+div.widget-area ul>li>b {
+    font-weight: 400;
+}
+
+div.widget-area ul>li>b {
+    padding-left: 75px;
+}
+
+
+/* bank end */
+
+
+/* about start */
+
+.team-section .featured-thumbnail img {
+    max-width: 360px;
+    max-height: 360px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* about end */
+
+
+/* product start */
+
+.subcategories {
+    margin-left: 30px !important;
+}
+
+
+/* product end */
+
+
+/* privacypolicy */
+
+.privacypolicy {
+    margin-top: 50px !important;
+}
+
+@media (min-width: 768px) {
+    .simplePopup {
+        /*  width: 50%;
+        min-width: 50%;*/
+        left: 50%;
+        /* margin-left: -25%; */
+    }
+}
+
+@media (max-width: 767px) {
+    .simplePopup {
+        width: calc(100% - 30px);
+        height: calc(100% - 50px);
+        /*overflow: scroll !important;*/
+    }
+    .simplePopup img {
+        width: calc(100%);
+        height: auto;
+    }
+}
