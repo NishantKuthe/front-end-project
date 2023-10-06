@@ -40,7 +40,7 @@ We welcome contributions from our members and partners. If you have any improvem
 
 If you have any questions, concerns, or inquiries about PAYSHIV INDIA PRIVATE LIMITED, please don't hesitate to contact our support team:
 
-- Email: support@payshivindia.com
+- Email: support@payshivindia.in
 - Phone: +91-XXXXXXXXXX
 - Website: [www.payshivindia.in](https://www.payshivindia.in)
 
